@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-SelfServingKiosk-387C509E-E6AC-4E52-B178-A059023DF08F</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.16.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TastyTrails.API.Business\TastyTrails.API.Business.csproj" />
+    <ProjectReference Include="..\TastyTrails.API.Repositories\TastyTrails.API.Repositories.csproj" />
+    <ProjectReference Include="..\TastyTrails.Common\TastyTrails.Common.csproj" />
+  </ItemGroup>
+
+</Project>

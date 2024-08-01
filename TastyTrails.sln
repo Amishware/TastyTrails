@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyTrails.API.SelfServingKiosk", "TastyTrails.API.SelfServingKiosk\TastyTrails.API.SelfServingKiosk.csproj", "{B9C4C6C8-E1DB-44D0-9A69-529AC38DB0E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyTrails.API.Repositories", "TastyTrails.API.Repositories\TastyTrails.API.Repositories.csproj", "{1ED78F54-34F9-4A24-9D2D-B3361241F1C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TastyTrails.Common", "TastyTrails.Common\TastyTrails.Common.csproj", "{8AF808CD-3EDA-4633-9B16-21FA0F6ACB89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyTrails.API.Business", "TastyTrails.API.Business\TastyTrails.API.Business.csproj", "{74280638-B309-49D6-B7D2-7DCA039A1C21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FF495682-F501-4F70-B9A8-FF1CBFBC48E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TastyTrails.API.UnitTests", "TastyTrails.API.UnitTests\TastyTrails.API.UnitTests.csproj", "{F2F3907F-15B5-490C-872A-42E287446859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9C4C6C8-E1DB-44D0-9A69-529AC38DB0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C4C6C8-E1DB-44D0-9A69-529AC38DB0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C4C6C8-E1DB-44D0-9A69-529AC38DB0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C4C6C8-E1DB-44D0-9A69-529AC38DB0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED78F54-34F9-4A24-9D2D-B3361241F1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED78F54-34F9-4A24-9D2D-B3361241F1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED78F54-34F9-4A24-9D2D-B3361241F1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED78F54-34F9-4A24-9D2D-B3361241F1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF808CD-3EDA-4633-9B16-21FA0F6ACB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF808CD-3EDA-4633-9B16-21FA0F6ACB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF808CD-3EDA-4633-9B16-21FA0F6ACB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF808CD-3EDA-4633-9B16-21FA0F6ACB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74280638-B309-49D6-B7D2-7DCA039A1C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74280638-B309-49D6-B7D2-7DCA039A1C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74280638-B309-49D6-B7D2-7DCA039A1C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74280638-B309-49D6-B7D2-7DCA039A1C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F3907F-15B5-490C-872A-42E287446859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F3907F-15B5-490C-872A-42E287446859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F3907F-15B5-490C-872A-42E287446859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F3907F-15B5-490C-872A-42E287446859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2F3907F-15B5-490C-872A-42E287446859} = {FF495682-F501-4F70-B9A8-FF1CBFBC48E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD8735A1-573E-4EB6-AC21-9FB4AFE64692}
+	EndGlobalSection
+EndGlobal
